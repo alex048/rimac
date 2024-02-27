@@ -30,8 +30,8 @@ const Steppers = () => {
         >
             <Container>
                 <Stepper activeStep={goSteps}>
-                    <Step onClick={() => setGoSteps(0)} label="LOGIN" />
-                    <Step onClick={() => setGoSteps(1)} label="DELIVERY" />
+                    <Step onClick={() => setGoSteps(0)} label="Planes y coberturas" />
+                    <Step onClick={() => setGoSteps(1)} label="Resumen" />
                 </Stepper>
                 {goSteps === 0 && (
                     <div>
